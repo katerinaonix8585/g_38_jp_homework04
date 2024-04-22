@@ -13,9 +13,9 @@ public class BookRepositoryMap implements BookRepository{
     private Map<Long, Book> database = new HashMap<>();
 
     public BookRepositoryMap() {
-        database.put(1L, new Book(1L, "А.С. Пушкин", "Евгений Онегин", 2000));
-        database.put(2L, new Book(2L, "М.Ю. Лермонтов", "Мцыри", 2001));
-        database.put(3L, new Book(3L, "Н.В. Гоголь", "Мертвые души", 2002));
+        database.put(1L, new Book(1L, "А.С. Пушкин", "Евгений Онегин", 2000, "16-148410"));
+        database.put(2L, new Book(2L, "М.Ю. Лермонтов", "Мцыри", 2001, "17-148410"));
+        database.put(3L, new Book(3L, "Н.В. Гоголь", "Мертвые души", 2002, "18-148410"));
     }
     @Override
     public Book getById(Long id) {
