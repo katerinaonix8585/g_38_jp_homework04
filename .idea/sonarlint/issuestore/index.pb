@@ -13,3 +13,10 @@ V
 &src/app/controller/BookController.java,7\e\7e57b143d23b71ca8fa578f58652fc0a1ec64e8c
 F
 src/client/Client.java,0\a\0a0f52bfa1f6460b3903514958536b4739b6a9a4
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+<
+database.txt,c\8\c851cd4ff77e1cbcaa771ab75cc57936ba1c122e
+Z
+*src/app/repository/BookRepositoryFile.java,c\3\c30010109a32559aa00193cb5956c87bf81081b1
